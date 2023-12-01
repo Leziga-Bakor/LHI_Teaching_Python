@@ -16,6 +16,14 @@
 
 
 
-h = eval(input(' what is the height ' ))
+h = eval(input(' what is the height of A? ' ))
+print(' '*h,'*')
 for i in range(h):
     print(' '*(h-i),'*',' *'*i,sep='')
+
+
+print('    ','*')
+print('   ','* *')
+print('  ','*****')
+print(' ','*     *')
+print('','*       *')
