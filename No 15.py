@@ -17,13 +17,17 @@
 
 
 h = eval(input(' what is the height of A? ' ))
-print(' '*h,'*')
-for i in range(h):
-    print(' '*(h-i),'*',' *'*i,sep='')
+print(' '*h,'*', sep ='')
+
+for i in range(1,h):
+    if i == h//2:
+        print(' '*(h-i),'*','*'*(2*i-1), '*',sep='')
+    else:
+        print(' '*(h-i),'*',' '*(2*i-1), '*',sep='')
 
 
-print('    ','*')
-print('   ','* *')
-print('  ','*****')
-print(' ','*     *')
-print('','*       *')
+# print('    ','*')
+# print('   ','* *')
+# print('  ','*****')
+# print(' ','*     *')
+# print('','*       *')
