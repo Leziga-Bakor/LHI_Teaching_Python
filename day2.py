@@ -28,11 +28,11 @@ i = 1
 
 # Float
 
-f= 1.2
+f = 1.2
 
 # Boolean
 
-t= True
+t = True
 f1 = False
 
 # num1 = eval(input('Enter the first number: '))
