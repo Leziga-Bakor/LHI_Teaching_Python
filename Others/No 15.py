@@ -55,4 +55,13 @@ overall_sum = sum_odd + sum_even
 print(sum_even)
 print(sum_odd)
 print(overall_sum)
-    
+
+sum_even2 = 0
+sum_odd2  = 0
+for i in range(1,2001):
+    if i%2 == 0:
+        sum_even2 += i
+    else:
+        sum_odd2 += i
+total_sum = sum_odd2 - sum_even2
+print(total_sum)
