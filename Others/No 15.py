@@ -31,3 +31,28 @@ for i in range(1,h):
 # print('  ','*****')
 # print(' ','*     *')
 # print('','*       *')
+
+'''
+Chapter 5, Number 4
+
+Write a program to compute the sum 1 − 2 + 3 − 4 + · · · + 1999 − 2000.
+
+-2-4-6-8-10....-2000
+1+3+5+7+9 .... +1999
+
+'''
+sum_even = 0
+for i in range(2,2001,2):
+    sum_even -= i
+    # sum_even = sum_even - i
+
+sum_odd = 0
+for j in range(1,2001,2):
+    sum_odd += j
+
+overall_sum = sum_odd + sum_even
+
+print(sum_even)
+print(sum_odd)
+print(overall_sum)
+    
