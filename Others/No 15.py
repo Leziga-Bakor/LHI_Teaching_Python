@@ -27,41 +27,45 @@
 
 
 
-# '''
-# Chapter 5, Number 4
 
-# Write a program to compute the sum 1 − 2 + 3 − 4 + · · · + 1999 − 2000.
 
-# -2-4-6-8-10....-2000
-# 1+3+5+7+9 .... +1999
+'''
+Chapter 5, Number 4
 
-# '''
-# sum_even = 0
-# for i in range(2,2001,2):
-#     sum_even -= i
-#     # sum_even = sum_even - i
+Write a program to compute the sum 1 − 2 + 3 − 4 + · · · + 1999 − 2000.
 
-# sum_odd = 0
-# for j in range(1,2001,2):
-#     sum_odd += j
+-2-4-6-8-10....-2000
+1+3+5+7+9 .... +1999
 
-# overall_sum = sum_odd + sum_even
+'''
+'''
+sum_even = 0
+for i in range(2,2001,2):
+    sum_even -= i
+    # sum_even = sum_even - i
 
-# print(sum_even)
-# print(sum_odd)
-# print(overall_sum)
+sum_odd = 0
+for j in range(1,2001,2):
+    sum_odd += j
 
-# # Second Solution 
-# sum_even2 = 0
-# sum_odd2  = 0
-# for i in range(1,2001):
-#     if i%2 == 0:
-#         sum_even2 += i
-#     else:
-#         sum_odd2 += i
-# total_sum = sum_odd2 - sum_even2
-# print(total_sum)
+overall_sum = sum_odd + sum_even
 
+print(sum_even)
+print(sum_odd)
+print(overall_sum)
+
+# Second Solution 
+sum_even2 = 0
+sum_odd2  = 0
+for i in range(1,2001):
+    if i%2 == 0:
+        sum_even2 += i
+    else:
+        sum_odd2 += i
+total_sum = sum_odd2 - sum_even2
+print(total_sum)
+
+'''
 
 ##################################################################
 
