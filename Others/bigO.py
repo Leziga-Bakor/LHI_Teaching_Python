@@ -72,7 +72,7 @@ def check(arr):
     for i in range(len(arr)): # n
         f = arr[i] # n
         # print() # n
-        for j in range(len(arr)): # n*n
+        for j in range(len(arr)): # 
             g=arr[j] # n*n
             f*g # n*n
     t2 = time.time()
@@ -85,3 +85,14 @@ check(arr)
 # 3n**2
 # n**2
 # O(n^2) => Quadratic time
+
+# [1,2,3,4,5,6,7,8,9,10]
+# [1,2,3,4,5] 
+# [1,2]
+# [2]
+
+# O(logn) => log time
+
+
+for n in range(1,10):
+    arr = [i for i in range(n)] 
