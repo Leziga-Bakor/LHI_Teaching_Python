@@ -51,6 +51,6 @@ if length < 0:
     print('You entered an invalid number')
 else: 
     inch = length/2.54
-    print('{} cm is equal to {} inches'.format(length*2, inch))
+    print('{} cm is equal to {} inches'.format(length, inch))
 
-    print(f'{length*2} cm is equal to {inch} inches')
+    print(f'{length} cm is equal to {inch} inches')
