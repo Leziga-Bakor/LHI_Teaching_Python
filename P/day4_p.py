@@ -46,7 +46,9 @@ fact = 1
 for i in range(1,num+1): # 0,1,2,...(num -1)
     fact = fact * i
 print('The factorial of {} is {}'.format(num,fact))
+
 print(f'The factorial of {num} is {fact}')
+
 '''
 1 * 1 = 1
 1 * 2 = 2 
