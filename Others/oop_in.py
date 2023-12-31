@@ -3,9 +3,20 @@ class Animal:
         self.name = name
         self.category = category
 
+    def move(self):
+        print('Runing')
+
 dog = Animal('Scooby', 'Canivorous')   #instantiating the class
 dog2 = Animal('Bingo', 'canivorous')
+  
 
+''' 
+
+polymorphysim
+encapsulation
+inheritance
+
+'''
 
 
 class Student: 
@@ -24,3 +35,8 @@ student1=Student('Fred',25,2222,300)
 james=Student('James',30,2244,500)
 
 print(student1.standing())
+
+
+class Dogs(Animal,Student):
+    def move(self):
+        print('Hopping')
