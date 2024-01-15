@@ -27,7 +27,7 @@ print(l)
 n = ' '.join(l)
 print(n)
 
-list comprehnsion ()
+# list comprehnsion ()
 
 L=[]
 for i in range(1,101):
@@ -45,7 +45,7 @@ for i in range(1,101):
 
 print(L)
 
-Two dimension list
+# Two dimension list
 
 l = [
     [1,2,3,4,5],
