@@ -49,6 +49,5 @@ elif user == fg:
     if user == correct_ans:
         flag = True
 
-
 if flag:
     print('Got the answer')
