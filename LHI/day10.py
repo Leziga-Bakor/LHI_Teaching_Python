@@ -73,8 +73,8 @@ x, y = y ,x
 
 a = 17
 
-if a < 10 and not z:
-    pass
+# if a < 10 and not z:
+#     pass
 
 b =  b%a
 b %= a
