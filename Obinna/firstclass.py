@@ -7,6 +7,7 @@ return a function
 '''
 # assign function to a variable
 def square(num):
+    
     return num*num
 
 sq = square  
