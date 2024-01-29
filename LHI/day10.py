@@ -102,10 +102,3 @@ for i in [1,1,1,7,2,3,4,5,6,8,
 p = 22/7
 
 print('The answer is {:.2f}'.format(p))
-
-
-
-'''
-
-
-'''
