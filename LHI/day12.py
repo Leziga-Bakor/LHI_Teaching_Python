@@ -44,7 +44,8 @@ l = list(first)
 
 second = {1,5,6,7}
 
-print(first | second) # {1, 2, 3, 4, 5, 6, 7}
+print(first | second)  # {1, 2, 3, 4, 5, 6, 7}
+u = first.union(second)
 print(first & second)  # {1, 5}
-print(first - second)
-print(second - first)
+print(first - second)  # {2, 3, 4}
+print(second - first)  # {6, 7}
