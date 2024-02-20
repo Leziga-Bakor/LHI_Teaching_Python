@@ -10,3 +10,8 @@ What are Companies looking for
 4. Communication Skills - Does your personality match the companies’ culture?
 
 '''
+
+
+
+
+
