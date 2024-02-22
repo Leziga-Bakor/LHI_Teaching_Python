@@ -34,7 +34,7 @@ header1 = tag('h1')  # = wrapper(msg)
 paragraph = tag('p')
 
 header = header1('This is the main header')
-p = paragraph('ghdfsghghthtrytggrtsdjyutsytytjsttytyhtjdtystyhtystwy')
+p = paragraph('ghdfsghghthtrytggrtsdjyutsytytjsttytyhtjdtystyhtyy')
 p2 = paragraph('second paragraph')
 print(header)
 print(p)
