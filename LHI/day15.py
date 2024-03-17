@@ -29,6 +29,7 @@ def outer():
    
 outer()
 
+
 print('global', x)
 
 
