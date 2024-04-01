@@ -5,7 +5,7 @@ class Hashtable():
         self.hashtable = [[] for i in range(self.size)] #[[],[[key,value],[key2,value2]],[]]
 
     def __str__(self):
-        pass
+        return str(self.hashtable)
     
     def _hash(self,key):
         return len(key) % self.size
