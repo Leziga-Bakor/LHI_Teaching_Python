@@ -3,12 +3,12 @@ class Hashtable():
     def __init__(self,size):
         self.size = size
         self.hashtable = [[] for i in range(self.size)] #[[],[[key,value],[key2,value2]],[]]
-        
+
     def __str__(self):
         pass
     
     def _hash(self,key):
-        pass
+        return len(key) % self.size
     
     def put(self,key,value):
         pass
