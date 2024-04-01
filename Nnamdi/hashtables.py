@@ -1,7 +1,9 @@
 
 class Hashtable():
     def __init__(self,size):
-        pass
+        self.size = size
+        self.hashtable = [[] for i in range(self.size)] #[[],[[key,value],[key2,value2]],[]]
+        
     def __str__(self):
         pass
     
