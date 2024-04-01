@@ -11,7 +11,15 @@ class Hashtable():
         return len(key) % self.size
     
     def put(self,key,value):
-        pass
+        loc = self._hash(key)
+        items = self.hashtable[loc]
+        for item in items:
+            if item[0] == key:
+                item[1] = value
+                return
+        items.append([key,value])
+        return
+
 
     def get(self, key):
         pass
