@@ -34,7 +34,8 @@ class Hashtable():
         pass
     
 if __name__ == "__main__":
-    # h = Hashtable(12)
+
+    h = Hashtable(12)
     # h.put('grapes', 1000)
     # h.put('apples', 10)
     # h.put('ora', 300)
