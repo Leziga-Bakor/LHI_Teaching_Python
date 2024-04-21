@@ -5,6 +5,7 @@ class Hashtable():
         self.hashtable = [[] for i in range(self.size)] #[[],[[key,value],[key2,value2]],[]]
 
     def __str__(self):
+
         return str(self.hashtable)
     
     def _hash(self,key):
@@ -28,7 +29,15 @@ class Hashtable():
         pass
 
     def keys(self):
-        pass
+        hash_keys = []
+        for item in self.hashtable:
+            if item and len(item)>1:
+                for i in item:
+                    hash_keys.append(i[0])
+            elif item:
+                hash_keys.append(item[0][0])
+        return hash_keys
+            
 
     def values(self):
         pass
@@ -40,11 +49,13 @@ if __name__ == "__main__":
     h.put('apples', 10)
     h.put('ora', 300)
     h.put('banana', 200)
-    # h.put('apples', 700)
-    # print(h)
+    h.put('apples', 700)
+    print(h)
     # print(h.get('grapes'))
     # print(h)
     # h.remove('apples')
     # print(h)
-    # print(h.keys())
+    print(h.keys())
     # print(h.values())
+
+  
