@@ -42,10 +42,8 @@ if __name__ == "__main__":
     h.put('banana', 200)
     # h.put('apples', 700)
     # print(h)
-    
     # print(h.get('grapes'))
     # print(h)
-    
     # h.remove('apples')
     # print(h)
     # print(h.keys())
