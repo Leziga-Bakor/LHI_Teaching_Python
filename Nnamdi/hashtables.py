@@ -12,6 +12,7 @@ class Hashtable():
         return len(key) % self.size
     
     def put(self,key,value):
+        
         loc = self._hash(key)
         items = self.hashtable[loc]
         for item in items:
