@@ -50,7 +50,7 @@ class LindedList():
             temp = temp.next
             i+=1
 
-
+ 
     def delete(self,index):
         pass
 
