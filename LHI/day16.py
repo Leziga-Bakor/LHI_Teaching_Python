@@ -19,7 +19,7 @@ class Employees:
     def fullname(self):
         return f'{self.firstname} {self.lastname}'
     
-    def raise_pay(self):
+    def apply_raise(self):
         self.pay = self.pay * self.pay_raise
 
 
