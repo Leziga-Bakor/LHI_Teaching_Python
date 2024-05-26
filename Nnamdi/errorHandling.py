@@ -14,3 +14,7 @@ else:
     pass
 finally:
     pass
+
+import datetime
+day = datetime.date(2016,7,10)
+print(day.weekday())
