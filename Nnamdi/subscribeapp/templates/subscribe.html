@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <h1>Welcome to subscribe page</h1>
+    <p>Please fill out the form below.</p>
+    <form action="{{url_for('thank_you')}}">
+        <label for="first">First Name:</label>
+        <input type="text" name="first">
+        <label for="last">Last Name:</label>
+        <input type="text" name="last">
+        <input type="submit" value="Submit Form">
+    </form>
+
+{% endblock %}
