@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-# Home -> Subscribe page -> thankyou page
 
 @app.route('/')
 def home():
