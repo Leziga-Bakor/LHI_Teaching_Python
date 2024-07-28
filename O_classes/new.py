@@ -37,3 +37,11 @@ our_sting = 123  # "123"
 our_sting = 123.0
 our_sting = True
 # print(type(our_sting))
+
+'''
+
+BODMAS
+
+1 *(3 +2) - 8
+
+'''
