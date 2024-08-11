@@ -1,3 +1,8 @@
+# import random
+from random import randint
+import math
+from math import sqrt, cos, log
+
 '''
 
 Write a program that uses exactly four for loops to print the sequence of letters below.
@@ -36,7 +41,7 @@ print(5%2)
 # print(dir(__builtins__))
 
 
-# modules/packages
-import random
+# modules/packages - built in 
 
-print(random.randint(1,20))
+
+print(randint(1,6))

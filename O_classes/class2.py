@@ -28,18 +28,7 @@ for i in range(height):
     print('*'*width)
 
 
-"""
-Operators
 
-+
--
-*
-/
-**
-// - integer division
-"""
-
-print(5/2)
 
 
  
