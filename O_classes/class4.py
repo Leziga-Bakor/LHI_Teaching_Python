@@ -25,18 +25,18 @@ else:
 
 score = 80
 
-# if score >= 70:
-#     grade = 'A'
-# if score >= 60 and score < 70:
-#     grade = 'B'
-# if score >= 50 and score < 60:
-#     grade = 'C'
-# if score >= 40 and score < 50:
-#     grade = 'D'
-# if score >= 30 and score < 40:
-#     grade = 'E'
-# if score < 30:
-#     grade = 'F'
+if score >= 70:
+    grade = 'A'
+if score >= 60 and score < 70:
+    grade = 'B'
+if score >= 50 and score < 60:
+    grade = 'C'
+if score >= 40 and score < 50:
+    grade = 'D'
+if score >= 30 and score < 40:
+    grade = 'E'
+if score < 30:
+    grade = 'F'
 
 
 
@@ -60,3 +60,10 @@ else:
     print('F')
 
 # print(grade)
+
+
+a = '1'
+a = 2 
+a = False
+
+print(a)
